@@ -1,0 +1,95 @@
+.main-div {
+    width: 100%;
+    height: 40%;
+    padding: 0px;
+    position: relative
+}
+
+.main-picture {
+    margin: 55px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+
+.my-pic {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.intro-title {
+    color: whitesmoke;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 90px;
+    position:absolute;
+    text-align: center;
+    width: 100%;
+    top: 20%
+}
+
+.intro-subtitle {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    position:absolute;
+    text-align: center;
+    width: 100%;
+    top: 55%
+}
+
+.container {
+    height:100%;
+    width:100%;
+    background-color: red;
+    position: relative;
+    text-align: center;
+    margin:0;
+    padding:0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 10px;
+}
+
+.content-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 10px;
+}
+
+.grid-div {
+    padding: 20px;
+    text-align: left;
+    border-style: solid;
+    font-size: 2em;
+}
+
+.test {
+    color: red;
+    margin-top: 100px;
+}
+
+.bio-p {
+    font-size: 20px;
+}
+
+.no-bullet {
+    list-style-type: none;
+}
+
+.bio-title {
+    text-align: center;
+    margin-top: 60px;;
+}
+
+.button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
